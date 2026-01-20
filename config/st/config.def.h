@@ -145,7 +145,7 @@ static unsigned int defaultrcs = 258;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
@@ -158,7 +158,7 @@ static unsigned int rows = 24;
  * Default shape of the mouse cursor
  */
 
-static char* mouseshape = "xterm";
+static unsigned int mouseshape = XC_xterm;
 
 /*
  * Color used to display font attributes when fontconfig selected a font which
