@@ -1,0 +1,4 @@
+# Ignore patch reject and backup files
+*.orig
+*.rej
+*.o
